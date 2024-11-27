@@ -5,14 +5,14 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "euI1EYaR#W4SDUJoxSgukStMvuHCBRUiNVnWGW1Z5_dw5gsC2TaI",
   // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
   // add your prifix for bot
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/hzagwo.jpg",
   // add img for alive msg
 SUDO_NB: process.env.SUDO_NB || "",
-  // add your sudo number like 92314xxxxxx
+  // add your sudo number like 923252854886
 MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
   // add your mongodb
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
